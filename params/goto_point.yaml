@@ -1,0 +1,23 @@
+goto_point:
+  ros__parameters:
+    reach_tolerance: 0.30
+    hover_time_sec: 3.0
+    preland_hover_time_sec: 2.0
+    preland_xy_tolerance: 0.10
+
+    spawn_world_x: -10.0
+    spawn_world_y: 0.0
+    yaw_align_deg: 90.0
+
+    xy_speed_mps: 1.0
+    z_up_speed_mps: 0.5
+    z_down_speed_mps: 0.3
+    yaw_speed_deg_s: 15.0
+    land_speed_mps: 0.20
+
+    waypoint_names: ["A-01", "A-02", "A-03"]
+    waypoint_world_x: [0.0, 0.0, 0.0]
+    waypoint_world_y: [2.5, -1.5, -5.5]
+    waypoint_z: [-2.0, -2.0, -2.0]
+
+    target_name: "A-01"
